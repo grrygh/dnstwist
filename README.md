@@ -53,4 +53,4 @@ This filter show the second column of the output text.
 `pinterest.com.au`\
 `redd.it`\
 `blogspot.com`\
-`snapchat.com`\
+`snapchat.com`
