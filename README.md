@@ -22,6 +22,10 @@ This filter remove the original domain name.
 `cut -d "," -f 2` \
 This filter show the second column of the output text.
 
+## Contributor
+
+[**@jinjie**]](https://github.com/jinjie)
+
 ## Original Seed Domains
 
 `facebook.com`\
