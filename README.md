@@ -11,7 +11,7 @@ A Python script created by @elceef, capable of generating hundreds or thosands o
 
 ## Commands used
 
-<test>
+~test~
 `<test>`
 
 dnstwist <domain.com> | awk '{print $2} | sed -e '1,9d' | perl -nle 'print if m{^[[:ascii:]]+$}' > output_file
