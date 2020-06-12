@@ -1,7 +1,7 @@
 ## What is this
 
 This repository is a collection of phishing domains generated from it's original domain name. \
-Example, facebook.com (original) possible phishing domain fabebook.com using bitsquatting technique.
+Example, `facebook.com` (original) possible phishing domain could be `fabebook.com` using bitsquatting technique.
 
 With this collection, you would add it into the Adlists (blocklist) of [**Pi-Hole**](https://pi-hole.net/) to expand it's capability of blocking potential phishing domains through name manipulation techniques.
 
