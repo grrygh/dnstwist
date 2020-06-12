@@ -11,16 +11,16 @@ A Python script created by [**@elceef**](https://github.com/elceef/dnstwist), ca
 
 ## Commands
 
-`dnstwist <domain.com> | awk '{print $2} | sed -e '1,9d' | perl -nle 'print if m{^[[:ascii:]]+$}' > output_file`
+`dnstwist -f csv <domain.com> | sed '1d' | grep -v '^original' | cut -d "," -f 2 > output_file`
 
-`awk '{print $2}` \
-This filter will display the second column from the output text.
+`sed '1d'` \
+This filter remove the header line.
 
-`sed -e '1,9d'` \
-This filter will remove the first top 9 lines from the output text.
+`grep -v '^original'` \
+This filter remove the original domain name.
 
-`perl -nle 'print if m{^[[:ascii:]]+$}'` \
-This filter will remove those lines with non-ascii characters, which are not supported in Pi-Hole.
+`cut -d "," -f 2` \
+This filter show the second column of the output text.
 
 ## Original Seed Domains
 
