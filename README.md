@@ -11,4 +11,10 @@ A Python script created by @elceef, capable of generating hundreds or thosands o
 
 ## Commands used
 
-dnstwist <domain.com> | awk '{print $2} | sed -e '1,9d' > output_file
+dnstwist <domain.com> | awk '{print $2} | sed -e '1,9d' | perl -nle 'print if m{^[[:ascii:]]+$}' > output_file
+
+awk '{print $2} - this filter will exact the second column from the output text.
+
+sed -e '1,9d' - this filter will remove the first top 9 lines from the output text.
+
+perl -nle 'print if m{^[[:ascii:]]+$}' - this filter will remove those lines with non-ascii characters, which are not supported in Pi-Hole.
