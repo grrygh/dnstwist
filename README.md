@@ -1,4 +1,4 @@
-## What is this
+## What is this?
 
 This repository is a collection of phishing domains generated from it's original domain name. \
 Example, `facebook.com` (original) possible phishing domain could be `fabebook.com` using bitsquatting technique.
@@ -9,7 +9,7 @@ With this collection, you would add it into the Adlists (blocklist) of [**Pi-Hol
 
 A Python script created by [**@elceef**](https://github.com/elceef/dnstwist), capable of generating hundreds or thosands of possible phishing domains based on the technique of Addition, Bitsquatting, Homoglyph, Omission, Subdomain and Vowel-Swap.
 
-## Commands used
+## Commands
 
 `dnstwist <domain.com> | awk '{print $2} | sed -e '1,9d' | perl -nle 'print if m{^[[:ascii:]]+$}' > output_file`
 
