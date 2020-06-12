@@ -25,7 +25,6 @@ This filter will remove those lines with non-ascii characters, which are not sup
 ## Original Seed Domains
 
 `facebook.com`\
-`fb.com`\
 `twitter.com`\
 `instagram.com`\
 `reddit.com`\
