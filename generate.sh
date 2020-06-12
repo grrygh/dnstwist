@@ -13,12 +13,12 @@ then
 fi
 
 # Clear social-twisted-dns file
-echo -n > "${BASE_DIR}/social-twisted-dns"
+# echo -n > "${BASE_DIR}/social-twisted-dns"
 
 cat ${DATA_DIR}/seed_domains.txt | sort | while read domain
 do
     echo "Twisting ${domain}..."
-    $DNSTWIST_BIN -f csv $domain | sed '1d' | grep -v '^original' | cut -d "," -f 2 >> social-twisted-dns
+    $DNSTWIST_BIN -f csv $domain | sed '1d' | grep -v '^original' | cut -d "," -f 2 >> ${DATA_DIR}/blacklist.txt
 done
 
 echo "Done"
