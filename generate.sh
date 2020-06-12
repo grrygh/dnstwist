@@ -12,9 +12,6 @@ then
     exit 1
 fi
 
-# Clear social-twisted-dns file
-# echo -n > "${BASE_DIR}/social-twisted-dns"
-
 # Read from the seed_domain.txt file, and start twisting...
 cat ${DATA_DIR}/seed_domains.txt | sort | while read domain
 do
@@ -30,6 +27,9 @@ cat ${DATA_DIR}/seed_domains.txt >> ${DATA_DIR}/archived_domains.txt
 
 # Sort and remove duplicate lines from archived_domains.txt
 cat ${DATA_DIR}/archived_domains.txt | sort | uniq > ${DATA_DIR}/tmp && mv ${DATA_DIR}/tmp ${DATA_DIR}/archived_domains.txt
+
+# Clear seed_domains.txt file
+echo -n > "${DATA_DIR}/seed_domains.txt"
 
 echo "Done"
 exit 0
