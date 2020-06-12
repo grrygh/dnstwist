@@ -23,7 +23,7 @@ do
 done
 
 # Sort and remove duplicate lines
-cat ${DATA_DIR}/blocklist | sort | uniq > ${DATA_DIR}/tmp && mv ${DATA_DIR}/tmp ${DATA_DIR}/blocklist.txt
+cat ${DATA_DIR}/blocklist.txt | sort | uniq > ${DATA_DIR}/tmp && mv ${DATA_DIR}/tmp ${DATA_DIR}/blocklist.txt
 
 echo "Done"
 exit 0
