@@ -15,11 +15,15 @@ fi
 # Clear social-twisted-dns file
 # echo -n > "${BASE_DIR}/social-twisted-dns"
 
+# Read from the seed_domain.txt file, and start twisting...
 cat ${DATA_DIR}/seed_domains.txt | sort | while read domain
 do
     echo "Twisting ${domain}..."
-    $DNSTWIST_BIN -f csv $domain | sed '1d' | grep -v '^original' | cut -d "," -f 2 >> ${DATA_DIR}/blacklist.txt
+    $DNSTWIST_BIN -f csv $domain | sed '1d' | grep -v '^original' | cut -d "," -f 2 >> ${DATA_DIR}/blocklist.txt
 done
+
+# Sort and remove duplicate lines
+cat ${DATA_DIR}/blocklist | sort | uniq > tmp && mv tmp blocklist.txt
 
 echo "Done"
 exit 0
