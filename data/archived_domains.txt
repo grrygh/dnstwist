@@ -1,4 +1,5 @@
 agoda.com
+apple.com
 blogspot.com
 carousell.com
 facebook.com
