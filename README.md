@@ -21,3 +21,8 @@ This filter will remove the first top 9 lines from the output text.
 
 `perl -nle 'print if m{^[[:ascii:]]+$}'` \
 This filter will remove those lines with non-ascii characters, which are not supported in Pi-Hole.
+
+## Original Seed Domains
+
+`facebook.com
+test.com`
