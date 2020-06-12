@@ -22,8 +22,14 @@ do
     $DNSTWIST_BIN -f csv $domain | sed '1d' | grep -v '^original' | cut -d "," -f 2 >> ${DATA_DIR}/blocklist.txt
 done
 
-# Sort and remove duplicate lines
+# Sort and remove duplicate lines from blocklist.txt
 cat ${DATA_DIR}/blocklist.txt | sort | uniq > ${DATA_DIR}/tmp && mv ${DATA_DIR}/tmp ${DATA_DIR}/blocklist.txt
+
+# Archive seed domains.
+cat ${DATA_DIR}/seed_domains.txt >> ${DATA_DIR}/archived_domains.txt
+
+# Sort and remove duplicate lines from archived_domains.txt
+cat ${DATA_DIR}/archived_domains.txt | sort | uniq > ${DATA_DIR}/tmp && mv ${DATA_DIR}/tmp ${DATA_DIR}/archived_domains.txt
 
 echo "Done"
 exit 0
