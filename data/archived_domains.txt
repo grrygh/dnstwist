@@ -1,9 +1,14 @@
 agoda.com
 apple.com
 blogspot.com
+bloomberg.com
 carousell.com
 facebook.com
+flipboard.com
+forbes.com
 foursquare.com
+foxnews.com
+github.com
 iherb.com
 instagram.com
 lazada.sg
@@ -12,6 +17,7 @@ linkedin.com
 medium.com
 messenger.com
 netflix.com
+nytimes.com
 pinterest.ca
 pinterest.co.uk
 pinterest.com
@@ -28,6 +34,7 @@ slideshare.net
 snapchat.com
 spotify.com
 telegram.org
+theguardian.com
 tiktok.com
 tumblr.com
 twitter.com
