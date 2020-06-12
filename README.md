@@ -24,7 +24,7 @@ This filter show the second column of the output text.
 
 ## Contributor
 
-[**@jinjie**]](https://github.com/jinjie)
+[**@jinjie**](https://github.com/jinjie)
 
 ## Original Seed Domains
 
