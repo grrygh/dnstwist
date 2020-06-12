@@ -16,7 +16,8 @@ A Python script created by [**@elceef**](https://github.com/elceef/dnstwist), ca
 `awk '{print $2}`\
 This filter will exact the second column from the output text.
 
-`sed -e '1,9d'` \ This filter will remove the first top 9 lines from the output text.
+`sed -e '1,9d'` \
+This filter will remove the first top 9 lines from the output text.
 
-`perl -nle 'print if m{^[[:ascii:]]+$}'`
+`perl -nle 'print if m{^[[:ascii:]]+$}'`\
 This filter will remove those lines with non-ascii characters, which are not supported in Pi-Hole.
