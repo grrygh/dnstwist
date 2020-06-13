@@ -29,29 +29,3 @@ This filter show the second column of the output text.
 ## Original Seed Domains
 
 [Data/archived_domains.txt](https://github.com/grrygh/dnstwist/blob/master/data/archived_domains.txt)
-`facebook.com`\
-`twitter.com`\
-`instagram.com`\
-`reddit.com`\
-`whatsapp.com`\
-`linkedin.com`\
-`pinterest.com`\
-`zhihu.com`\
-`tiktok.com`\
-`tumblr.com`\
-`messenger.com`\
-`weibo.com`\
-`line.me`\
-`medium.com`\
-`slideshare.net`\
-`slack.com`\
-`pinterest.co.uk`\
-`pinterest.es`\
-`pinterest.fr`\
-`pinterest.ca`\
-`pinterest.com.mx`\
-`pinterest.de`\
-`pinterest.com.au`\
-`redd.it`\
-`blogspot.com`\
-`snapchat.com`
