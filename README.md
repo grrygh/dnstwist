@@ -27,10 +27,10 @@ This filter show the second column of the output text.
 
 ## Usage
 
-*What are the files*
-seed_domains.txt        - This is where you put in the original seed domain(s).
-archived_domains.txt    - A list of seeded domains for reference.
-blocklist_txt           - List of potential phishing domains.
+*What are the files* \
+seed_domains.txt        - This is where you put in the original seed domain(s). \
+archived_domains.txt    - A list of seeded domains for reference. \
+blocklist_txt           - List of potential phishing domains. \
 
 **How to use**
 
