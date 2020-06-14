@@ -4,7 +4,7 @@ Generate a list of potential phishing domains in a single file **blocklist.txt**
 
 ## How it works?
 
-A script generator contributed by [**@jinjie**](https://github.com/jinjie), take the seed domain(s) and pass through a *twisting* process which output a long list of potential phishing domains using name manupulation techqnies. \
+A script generator contributed by [**@jinjie**](https://github.com/jinjie), takes the seed domain(s) and pass through a *twisting* process which output a long list of potential phishing domains using name manupulation techqnies. \
 Example, `facebook.com` (original) possible phishing domain could be `fabebook.com` using bitsquatting technique.
 
 ## The *Twisting* technique
