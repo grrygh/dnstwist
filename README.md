@@ -14,6 +14,7 @@ A Python script created by [**@elceef**](https://github.com/elceef/dnstwist), ca
 **Commands used**
 
 `dnstwist -f csv <domain.com> | sed '1d' | grep -v '^original' | cut -d "," -f 2 > output_file`
+This generate all possible phishing domains and store it to an output file.
 
 `sed '1d'` \
 This filter remove the header line.
