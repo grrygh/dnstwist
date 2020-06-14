@@ -1,15 +1,24 @@
 ## What is this?
 
-This repository is a collection of phishing domains generated from it's original domain name. \
+Generate a list of potential phishing domains in a single file **blocklist.txt** which can be used by [**Pi-Hole**](https://pi-hole.net/).
+
+## How it works?
+
+A script generator contributed by [**@jinjie**](https://github.com/jinjie), take the seed domain(s) and pass through a *twisting* process which output a long list of potential phishing domains using name manupulation techqnies. \
 Example, `facebook.com` (original) possible phishing domain could be `fabebook.com` using bitsquatting technique.
 
-With this collection, you would add it into the Adlists (blocklist) of [**Pi-Hole**](https://pi-hole.net/) to expand it's capability of blocking potential phishing domains through name manipulation techniques.
-
-## How the phishing domain generator works?
+## The *Twisting* technique
 
 A Python script created by [**@elceef**](https://github.com/elceef/dnstwist), capable of generating hundreds or thosands of possible phishing domains based on the technique of Addition, Bitsquatting, Homoglyph, Omission, Subdomain and Vowel-Swap.
 
-## Commands
+## Usage
+
+*What are the files*
+seed_domains.txt        - This is where you put in the original seed domain(s).
+archived_domains.txt    - A list of seeded domains for reference.
+blocklist_txt           - List of potential phishing domains.
+
+## Commands used
 
 `dnstwist -f csv <domain.com> | sed '1d' | grep -v '^original' | cut -d "," -f 2 > output_file`
 
