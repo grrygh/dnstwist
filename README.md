@@ -34,4 +34,4 @@ blocklist_txt           - List of potential phishing domains.
 
 **How to use**
 
-You can either folk this repo, generate blocklist from your own seed domains or simply use my blocklist.txt in your Pi-Hole.
+You can either folk this repo, install dnstwist from [**@elceef**](https://github.com/elceef/dnstwist) and generate blocklist from your own seed domains or simply use my blocklist.txt in your Pi-Hole.
