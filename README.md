@@ -31,3 +31,7 @@ This filter show the second column of the output text.
 seed_domains.txt        - This is where you put in the original seed domain(s).
 archived_domains.txt    - A list of seeded domains for reference.
 blocklist_txt           - List of potential phishing domains.
+
+**How to use**
+
+You can either folk this repo, generate blocklist from your own seed domains or simply use my blocklist.txt in your Pi-Hole.
