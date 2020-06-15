@@ -8,6 +8,7 @@ citibank.com.sg
 concursolutions.com
 cyberciti.biz
 deliveroo.com.sg
+engadget.com
 eventbrite.sg
 facebook.com
 flipboard.com
@@ -16,6 +17,7 @@ forbes.com
 foursquare.com
 foxnews.com
 github.com
+gizmodo.com
 hardwarezone.com.sg
 ifttt.com
 iherb.com
@@ -29,6 +31,7 @@ linuxcommand.org
 mashable.com
 medium.com
 messenger.com
+mobilecrunch.com
 netflix.com
 nytimes.com
 pinterest.ca
@@ -50,8 +53,10 @@ snapchat.com
 spotify.com
 starbucks.com.sg
 starhub.com
+techradar.com
 telegram.org
 theguardian.com
+theregister.com
 tiktok.com
 tumblr.com
 twitter.com
