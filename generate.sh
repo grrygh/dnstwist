@@ -12,7 +12,7 @@ then
     exit 1
 fi
 
-# Read from the seed_domain.txt file, and start twisting...
+# Read from the seed_domain.txt file, remove any blank lines and start twisting...
 cat ${DATA_DIR}/seed_domains.txt | sed '/^$/d' | sort | while read domain
 do
     echo "Twisting ${domain}..."
